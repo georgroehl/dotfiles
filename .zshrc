@@ -10,6 +10,4 @@ function cdf() {
   cd "$(pfd)"
 }
 
-function sublime() {
-  open -a /Applications/Sublime\ Text.app "$1"
-}
+alias sublime="open -a /Applications/Sublime\ Text.app"
