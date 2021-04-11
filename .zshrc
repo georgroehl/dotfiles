@@ -11,3 +11,5 @@ function cdf() {
 }
 
 alias sublime="open -a /Applications/Sublime\ Text.app"
+
+alias gitlog5="git log -5 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
