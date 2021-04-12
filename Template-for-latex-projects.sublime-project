@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"name": "Projectname",
+			"file_exclude_patterns": [
+				"*.aux",
+				"*.fls",
+				"*.log",
+				"*.fdb_latexmk",
+				"*.lof",
+				"*.lot",
+				"*.out",
+				"*.synctex.gz"
+			]
+		}
+	],
+	"settings" : {
+        "TEXroot": "main.tex",
+        "tex_file_exts": [".tex", ".tikz"],
+    }
+}
